@@ -1,0 +1,4 @@
+interface IBlockable
+{
+    bool Block();
+}

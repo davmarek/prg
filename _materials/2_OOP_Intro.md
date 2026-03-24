@@ -114,8 +114,6 @@ Console.WriteLine(sportovniAuto.barva); // Vypíše: Modrá
 
 ```
 
-
-
 # Shrnutí
 
 1. **Třída** je plánek, **Objekt** je konkrétní věc vytvořená podle plánku.
@@ -126,6 +124,6 @@ Console.WriteLine(sportovniAuto.barva); // Vypíše: Modrá
 # Cvičení
 Zkuste vytvořit třídu `Wall`, která bude mít vlastnosti `height (float)`, `width (float)` a `material (string)` a konstruktor, který tyto hodnoty nastaví.
 
-Dále třída bude obsahovat metodu `GetSurface()`, která bude vracet celkovou vypočítanou plochu zdi a metodu `PrintInfo()`, která nebude nic vrace, ale vypíše informace o zdi na jeden řádek.
+Dále třída bude obsahovat metodu `GetSurface()`, která bude vracet celkovou vypočítanou plochu zdi a metodu `PrintInfo()`, která nebude nic vracet, ale vypíše informace o zdi na jeden řádek (včetně jejího povrchu pomocí funkce `GetSurface()`).
 
 Poté vytvořte dvě různé instance této třídy a zkuste využít vytvořené metody.
