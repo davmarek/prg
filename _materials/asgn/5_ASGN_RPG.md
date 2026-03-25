@@ -8,9 +8,9 @@ fontsize: 11pt
 
 ## Zadání
 
-Píšete textovou RPG hru. Hráč si vybere postavu - Válečníka nebo Mága — a postupně
-bojuje s příšerami. Každá postava útočí jinak. Mág navíc umí léčit, Válečník se umí
-bránit. Hra skončí, jakmile jsou poraženy všechny příšery nebo hráč padne.
+Píšete textovou RPG hru. Vybraná postava - Warrior nebo Mage - postupně
+bojuje s příšerami. Každá postava útočí jinak. Mage navíc umí léčit, Warrior se umí
+  bránit. Hra skončí, jakmile jsou poraženy všechny příšery nebo hráč padne.
 
 
 ## Přehled tříd a rozhraní
@@ -131,7 +131,7 @@ Kontrola rozhraní v Main:
 bool blocked = false;
 if (player is IBlockable blocker)
 {
-    bool blocked = blocker.Block();
+    blocked = blocker.Block();
 }
 // V tomto bodě máme v proměnné blocked true/false jestli bude útok blokován
 ```
